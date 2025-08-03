@@ -2,22 +2,22 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "20114039"))
+API_HASH = os.environ.get("API_HASH", "87297b8f3cc8fc9bbce591ad30da5896")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7711849714:AAEhFEQuSdqQvqfmQ1x5w7TXkKZQSSnUtKs")
 
-CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
+CREDIT = os.environ.get("CREDIT", "〱𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍▕")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://botexe:botexe@cluster0.pqc0ykw.mongodb.net/")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Demo23:Demo23@cluster0.fjar36c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "77"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "774").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8172163893"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8172163893").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+W-Q51EuLf2QwYTl"
+PREMIUM_CHANNEL = "https://t.me/+-AqDs_2CfIA2MDk9"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.fbcd.co/products/original/ug-logo-designs-2-acbfbf7b80e16df4c902a34d1caf148e7e1feca736e21075114990e62294f3ac.jpg").split()))
 
@@ -51,7 +51,7 @@ Please contact the admin to renew your subscription.</blockquote>""",
     "access_denied": """<b>⚠️ Access Denied!</b>
 
 <blockquote>You are not authorized to use this bot.
-Please contact the admin @ItsUGBot to get access.</blockquote>""",
+Please contact the admin to get access.</blockquote>""",
 
     "not_admin": "⚠️ You are not authorized to use this command!",
     
@@ -59,3 +59,4 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
