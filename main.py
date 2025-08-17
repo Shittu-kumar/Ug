@@ -582,7 +582,7 @@ async def txt_handler(bot: Client, m: Message):
         CR = raw_text3
     chat_id = editable.chat.id
     timeout_duration = 3 if auto_flags.get(chat_id) else 20
-    await editable.edit(f"**send the token of __PW__ or ClassPlus [Optional] OR send /d**")
+    await editable.edit(f"**send the token of __PW_ or ClassPlus [Optional] OR send /d**")
     try:
         input4: Message = await bot.listen(editable.chat.id, timeout=timeout_duration)
         raw_text4 = input4.text
