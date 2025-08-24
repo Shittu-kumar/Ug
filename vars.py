@@ -6,7 +6,7 @@ API_ID = int(os.environ.get("API_ID", "20114039"))
 API_HASH = os.environ.get("API_HASH", "87297b8f3cc8fc9bbce591ad30da5896")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7711849714:AAEhFEQuSdqQvqfmQ1x5w7TXkKZQSSnUtKs")
 
-CREDIT = os.environ.get("CREDIT", "〱𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍▕")
+CREDIT = os.environ.get("CREDIT", "〱𝘽𝙃𝙐𝙈𝙄𝙃𝘼𝙍")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Demo23:Demo23@cluster0.fjar36c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -59,4 +59,5 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
